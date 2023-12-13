@@ -1,0 +1,163 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Quicksand:wght@500&family=Silkscreen&display=swap');
+
+/* Estilos Generales */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html body {
+    background-color:darkturquoise;
+}
+
+/* header */
+
+header .container{
+    width: 100%;
+}
+
+.textoTitulo{
+    font-family: 'Silkscreen', sans-serif;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    margin-bottom: 0;
+}
+
+.fondoNegro{
+    background-color: black;
+}
+
+.fondoAzul{
+    background-color: darkturquoise;
+}
+
+/* Seccion RandomNum */
+
+.imagenNumeroRandom div {
+    height: 300px;
+}
+
+.container img{
+    width: 200px;
+    height: 200px;
+    border: 10px double black;
+    align-content: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.textoGanador{
+    padding: 5px;
+    font-size: 30px;
+    font-family: 'Silkscreen', sans-serif;
+    border: 1px solid darkturquoise;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    display: block;
+}
+
+.reinicio {
+    padding: 10px;
+    text-align: center;
+}
+
+/* Seccion Instrucciones */
+
+.accordion-header{
+    font-family: 'Silkscreen', sans-serif;
+}
+
+.listForm{
+    padding: 15px;
+}
+
+.listForm .container{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    max-width: 100%;
+}
+
+.columna{
+    border: 2px solid black;
+}
+
+.columna h2{
+    font-family: 'Silkscreen';
+    font-size: 1em;
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
+    margin: 2px;
+}
+
+.listaIntentos{
+    list-style: none;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+.formulario{
+    padding: 10px;
+    margin: 5px;
+}
+
+form label {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+form input[type=number]{
+    border: none;
+    border-bottom: 2px solid black;
+    width: 50px;
+    text-align: center;
+}
+
+#forma button{
+    font-size: 25px;
+    background: none;
+    border: none;
+    border-radius: 50%;
+    color: black;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1.1;
+    margin-left: 10px;
+}
+
+#forma button:hover{
+    color: rgb(35, 251, 35);
+}
+
+#forma button:active{
+    transform: translateY(2px);
+    color: green;
+}
+
+.estiloBotonReinicio{
+    padding: 5px;
+    font-size: 1em;
+    background-color: darkblue;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid white;
+}
+
+.estiloBotonReinicio:hover{
+    background-color: slateblue
+}
+
+.estiloBotonReinicio:active{
+    background-color: darkblue;
+    transform: translateY(2px);
+}
